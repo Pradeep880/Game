@@ -83,7 +83,7 @@ The Tic-Tac-Toe game consists of the following features:
 ![Home Page](screenshot1.png)
 
 ### Player Page
-![Player Page](screenshot1.png)
+![Player Page](screenshot2.png)
 ## Game Flow
 
 1. **Start the Game:**
