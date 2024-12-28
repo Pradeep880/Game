@@ -33,7 +33,17 @@
             transform: scale(1);
         }
     }
-
+    .rules {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #578168;
+        border-radius: 10px;
+        background-color: #e2e4e6;
+    }
+    li{
+        margin:5px;
+    }
     input {
         margin-bottom: 20px;
         padding: 10px;
