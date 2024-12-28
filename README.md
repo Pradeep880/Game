@@ -78,7 +78,12 @@ The Tic-Tac-Toe game consists of the following features:
 
 - **index.js**: The main server file that sets up the Express server and Socket.io for real-time communication.
 - **index.html**: The main HTML file for the game interface.
+## Screenshots
+### Home Page
+![Home Page](screenshot1.png)
 
+### Player Page
+![Player Page](screenshot1.png)
 ## Game Flow
 
 1. **Start the Game:**
