@@ -1,0 +1,136 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #ffffff;
+        display: grid;
+        place-items: center;
+        font-family: 'Tilt Warp', cursive;
+        height: 100vh;
+    }
+
+    h1 {
+        margin: 50px 0;
+        font-size: 5rem;
+        color: #578168;
+        -webkit-text-stroke: 0.5px black;
+        text-shadow: 2px 2px #ff6f61;
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.05);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
+    input {
+        margin-bottom: 20px;
+        padding: 10px;
+        font-size: 1.2rem;
+        border-radius: 12px;
+        border: 2px solid #578168;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+
+    input:focus {
+        border-color: #ff6f61;
+        box-shadow: 0 0 10px #ff6f61;
+    }
+
+    button {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 12px;
+        background-color: #578168;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #ff6f61;
+        transform: scale(1.1);
+    }
+
+    img {
+        width: 50px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #cont {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .btn {
+        font-size: 2rem;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        margin: 0;
+        background-color: #cecbcb;
+        border-radius: 10px;
+        border: 2px solid #578168;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #e2e4e6;
+        transform: translateY(-5px);
+    }
+
+    #find {
+        font-size: 1.2rem;
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 10px;
+        width: 200px;
+        background-color: #323030;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    #find:hover {
+        background-color: #ff6f61;
+        transform: scale(1.1);
+    }
+
+    button.enabled {
+        opacity: 1;
+    }
+
+    p {
+        font-size: 2rem;
+        color: #323030;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    #userCont, #oppNameCont, #valueCont, #whosTurn {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        max-width: 600px;
+        margin: 10px auto;
+    }
+
+    #userCont span, #oppNameCont span, #valueCont span {
+        font-weight: bold;
+        color: #ff6f61;
+    }
